@@ -16,6 +16,7 @@ To write a Python program to evaluate a **Taylor Series** using **recursion**, w
 6. **Stop**
 
 ## 💻 PROGRAM:
+```
 def fun(x,n):
   if n==0:
      return 1
@@ -24,7 +25,7 @@ def fun(x,n):
 x=int(input())
 n=int(input())
 print(fun(x,n))
-
+```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/3a8c1297-8ce4-45ea-9e1e-169783604937)
 
