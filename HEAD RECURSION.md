@@ -17,6 +17,7 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
 7. **Stop**
 
 ## 💻 PROGRAM:
+```
   def fun(n):
       if n == 0:
           return
@@ -27,6 +28,7 @@ To write a Python program to demonstrate **Head Recursion** by finding and print
   if num % 2 != 0:
       num += 1
   fun(num)
+```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/89b60e1b-f3e2-4330-af9c-77899f8cc2da)
 
