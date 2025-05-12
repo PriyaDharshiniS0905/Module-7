@@ -23,6 +23,7 @@ To write a Python program to evaluate the value of **sinh(x)** for **n terms** u
 ---
 
 ## 💻 PROGRAM:
+```
 def fact(n):
     if n<=1:
        return 1
@@ -36,6 +37,7 @@ def angle(x,n):
 x=int(input())
 n=int(input())
 print(sinh(x,n))
+```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/9fde9a60-7ac1-4f20-825a-80ad8f4bb1f2)
 
