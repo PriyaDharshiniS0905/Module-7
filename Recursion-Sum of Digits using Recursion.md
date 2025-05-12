@@ -18,6 +18,7 @@ REG NO : 212224020045
 ## 💻 PROGRAM:
 
 ADD CODE HERE
+```
   def sum_digits(num):
       if num < 0 or int(num) != num:
           return 0
@@ -27,7 +28,7 @@ ADD CODE HERE
           return (num % 10) + sum_digits(num//10)
   num= int(input())
   print(sum_digits(num))
-
+```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/3caee1a3-8400-4c5c-9907-f19ec1dc2741)
 
