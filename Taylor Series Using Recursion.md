@@ -1,5 +1,6 @@
 # 📐 Taylor Series Using Recursion in Python
-
+NAME : PRIYADHARSHINI .S
+REG NO: 212224020045
 ## 🎯 AIM:
 To write a Python program to evaluate a **Taylor Series** using **recursion**, where values of `x` and `n` are taken from the user.
 
@@ -15,9 +16,17 @@ To write a Python program to evaluate a **Taylor Series** using **recursion**, w
 6. **Stop**
 
 ## 💻 PROGRAM:
-
-ADD CODE HERE
+def fun(x,n):
+  if n==0:
+     return 1
+  else:
+      return (((x**n)/n)+fun(x,n-1)
+x=int(input())
+n=int(input())
+print(fun(x,n))
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3a8c1297-8ce4-45ea-9e1e-169783604937)
 
 ## RESULT
+Thus, the program has been execueted successfully.
