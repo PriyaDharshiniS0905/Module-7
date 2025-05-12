@@ -22,6 +22,7 @@ To write a Python program to check whether a given string is a **palindrome** us
 
 ## 💻 PROGRAM:
 ADD CODE HERE
+```
   def is_palindrome(word):
       if len(word) <= 1:
           return True
@@ -33,6 +34,7 @@ ADD CODE HERE
       print("String is a palindrome")
   else:
       print("String is not a palindrome")
+```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/30581954-a6b0-41d6-a84c-06829f7f5885)
 
